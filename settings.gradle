@@ -1,0 +1,18 @@
+/*
+ * *
+ *  * Created by Paramjit.Rana on 03/09/21, 2:54 PM
+ *  * Copyright (c) 2021 . All rights reserved.
+ *  * Last modified 03/09/21, 2:44 PM
+ *
+ */
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "My Application"
+include ':app'

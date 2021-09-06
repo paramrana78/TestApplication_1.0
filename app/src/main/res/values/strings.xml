@@ -1,0 +1,14 @@
+<!--
+  ~ /**
+  ~  * Created by Paramjit.Rana on 03/09/21, 2:54 PM
+  ~  * Copyright (c) 2021 . All rights reserved.
+  ~  * Last modified 03/09/21, 2:44 PM
+  ~  */
+  -->
+
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+</resources>
