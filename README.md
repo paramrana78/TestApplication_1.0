@@ -3,9 +3,8 @@
 
 DEMO:
 
-![demo video](https://user-images.githubusercontent.com/17310188/132338613-435223c7-1c0f-4579-b693-2a80f3552f76.gif)
 
-
+<img src="https://user-images.githubusercontent.com/17310188/132338613-435223c7-1c0f-4579-b693-2a80f3552f76.gif" width="250" height="500"/>
 
 
 

@@ -27,6 +27,7 @@ class Screen1 : AppCompatActivity() {
     private var editTextUsername: EditText? = null
     private var editTextPassword: EditText? = null
     private var buttonConfirm: Button? = null
+    private lateinit var viewModel: ValidationViewmodel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,6 +40,11 @@ class Screen1 : AppCompatActivity() {
 
         editTextUsername?.addTextChangedListener(loginTextWatcher);
         editTextPassword?.addTextChangedListener(loginTextWatcher);
+
+
+
+
+
         buttonConfirm?.setOnClickListener {
             Intent(this, Screen2::class.java).apply {
                 startActivity(this)
@@ -52,7 +58,14 @@ class Screen1 : AppCompatActivity() {
         override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {
             val usernameInput = editTextUsername!!.text.toString().trim { it <= ' ' }
             val passwordInput = editTextPassword!!.text.toString().trim { it <= ' ' }
+
             buttonConfirm!!.isEnabled = usernameInput.isNotEmpty()&& usernameInput.length>=5 && passwordInput.isNotEmpty()&& passwordInput.length>=5
+
+
+
+
+
+
         }
 
         override fun afterTextChanged(s: Editable) {}
